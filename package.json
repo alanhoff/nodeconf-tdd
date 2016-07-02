@@ -1,0 +1,20 @@
+{
+  "name": "nodeconf-tdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab -r console --verbose --assert code"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "co": "^4.6.0",
+    "code": "^3.0.1",
+    "lab": "^10.8.2",
+    "standard": "^7.1.2"
+  },
+  "dependencies": {
+    "hapi": "^13.4.1"
+  }
+}
